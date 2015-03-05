@@ -1,9 +1,9 @@
 module Calculate
-   def calculate_percentage
-	(@marks_scored/@total_marks.to_f)*100
+   def calculate_percentage(marks_scored,total_marks)
+	(marks_scored/total_marks.to_f)*100
    end
-   def calculate_interest
-      puts (@principal*@rate_of_interest*@period)/100
+   def calculate_interest(principal,rate_of_interest,period)
+      puts (principal*rate_of_interest*period)/100
    end
 end
 
@@ -34,7 +34,7 @@ puts "total_marks"
 total_marks = gets.chomp.to_i
 student_no_1 = Score.new(marks_scored, total_marks)
 puts "the percentage is"
-puts student_no_1.calculate_percentage
+puts student_no_1.calculate_percentage(marks_scored, total_marks)
 puts "principal"
 principal = gets.chomp.to_i
 puts "rate_of_interest"
@@ -43,4 +43,4 @@ puts "period"
 period = gets.chomp.to_i
 employee = Interest.new(principal, rate_of_interest, period)
 puts "the simple interest is:"
-employee.calculate_interest 
+employee.calculate_interest((principal,rate_of_interest,period)) 
