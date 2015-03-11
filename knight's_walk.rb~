@@ -1,8 +1,0 @@
-
-
-def knight_tour
-  puts ''
-end
-
-puts 'enter the value:'
-knight_tour
