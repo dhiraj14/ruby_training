@@ -62,7 +62,7 @@ def knight_tour(rows=8, cols=rows, sx=rand(rows), sy=rand(cols))
 end
 
 
-knight_tour(5,5,3,3)
+knight_tour(5,5,1,1)
  
 #knight_tour(5,5,2,2)
  
