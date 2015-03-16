@@ -1,0 +1,2 @@
+puts "welcome to Inventory System"
+require 'inventory_system'

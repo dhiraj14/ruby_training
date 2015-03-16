@@ -7,4 +7,5 @@ Gem::Specification.new do |s|
   s.authors     = ["Dhiraj Mishra"]
   s.email       = 'mdhiraj01@yahoo.com'
   s.files       = ["lib/inventory_system.rb"]
+  s.executables =  "inventory_system"
 end
