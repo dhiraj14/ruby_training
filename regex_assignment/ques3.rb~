@@ -1,0 +1,5 @@
+puts "enter a string you want to check"
+line=gets.chomp
+pattern=/\w+/
+line=line.scan(pattern)
+puts line[2]

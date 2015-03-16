@@ -1,0 +1,20 @@
+Hello All,
+ Here is the assignment for RegEx.
+
+1) Write a ruby program which accept input as file path.
+  Constraint : will accept only ruby files.
+            write a RegEx to grep all defined variables like (global, local, class, instance) from given ruby file.
+  
+  Output : print all variables with there type count.
+
+2) Check if the pattern "ss" appears in the string "Mississippi".
+3) Print out the 3rd word of each sentence from a list of sentences.
+4) Find and replace all instances of "Mrs" with "Ms" in a sentence.
+5) Does a string start with "St"?
+6) Does a string end with "art"?
+7) Does a string have non-alphanumeric characters in it?
+8) Are there any whitespace characters in the string?
+9) Find and replace all non-alphanumeric characters in a string with "-".
+
+
+
